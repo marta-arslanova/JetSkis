@@ -1,0 +1,106 @@
+.sale-item {
+  width: 265px;
+  text-align: center;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+
+  &__info {
+    color: #FFF;
+    background-color: #1C62CD;
+    padding: 8px 20px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__price {
+    text-align: right;
+    font-family: 'Barlow';
+    position: relative;
+    &-new {
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 32px;
+      color: #1C62CD;
+      margin-right: 9px;
+      padding-right: 20px;
+      &::after {
+        content: '';
+        background-image: url('../../images/banner-section/icons-price.svg');
+        position: absolute;
+        right: 7px;
+        width: 16px;
+        height: 18px;
+        top: 8px;
+        bottom: 0;
+      }
+    }
+    &-old {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      color: #C4C4C4;
+      margin-right: 6px;
+      background-image: url('../images/banner-section/old-line.svg'); 
+      padding: 2px 8px;
+      background-repeat: no-repeat;
+      &::after {
+        content: '';
+        background-image: url('../images/banner-section/icons-price-old.svg');
+        position: absolute;
+        right: 3px;
+        width: 8px;
+        height: 10px;
+        top: 41px;
+        bottom: 0;
+      }
+    }
+  }
+
+  &__img {
+    margin-top: 8px;
+  }
+
+  &__title {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F3035;
+  }
+
+  &__footer {
+    margin-top: 7px;
+    padding-top: 26px;
+    width: 264px;
+    height: 99px;
+    background-color: #F0F0F4;
+    font-size: 18px;
+    line-height: 21px;
+    span {
+      padding-top: 2px;
+      font-family: 'Barlow';
+      font-weight: 700;
+      display: block;
+      font-size: 18px;
+      line-height: 22px;
+      color: #1C62CD;
+    }
+  }
+
+  &__img {
+    object-fit: contain;
+
+  }
+}

@@ -1,0 +1,42 @@
+@import 'settings/grid';
+@import 'settings/fonts';
+@import 'sections/header-top';
+@import 'sections/header-bottom';
+@import 'sections/banner-section';
+@import 'sections/sale-item';
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  color: #2F3035;
+  font-family: 'SFProDisplay-Regular', sans-serif;
+  font-weight: 400;
+  font-style: 20px;
+  line-height: 24px;
+}
+
