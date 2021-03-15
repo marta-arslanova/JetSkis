@@ -4,6 +4,7 @@
 @import 'sections/header-bottom';
 @import 'sections/banner-section';
 @import 'sections/sale-item';
+@import 'sections/search';
 
 html {
   box-sizing: border-box;
@@ -20,6 +21,7 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 ul, li {
