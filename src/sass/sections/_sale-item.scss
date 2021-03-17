@@ -27,6 +27,7 @@
     text-align: right;
     font-family: 'Barlow';
     position: relative;
+
     &-new {
       font-weight: 700;
       font-size: 27px;
@@ -45,6 +46,7 @@
         bottom: 0;
       }
     }
+    
     &-old {
       display: inline-block;
       font-size: 14px;

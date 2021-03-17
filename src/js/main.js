@@ -16,4 +16,8 @@ $(function(){
     $($(this).attr('href')).addClass('search__content-item--active');
   });
 
+  
+
 });
+
+
