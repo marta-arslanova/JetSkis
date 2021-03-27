@@ -9,7 +9,7 @@
       line-height: 24px;
       color: #2F3035;
 
-      &--active {
+      &.tab--active {
         background-color: #F0F0F4;
         border-radius: 5px;
         font-weight: 700;
@@ -20,9 +20,9 @@
 
     &-item {
       display: none;
-      &--active {
+      
+      &.tabs-content--active {
         display: block;
-
       }
     }
 
